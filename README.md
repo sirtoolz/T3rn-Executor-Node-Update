@@ -29,9 +29,6 @@ tar -xvzf executor-linux-v0.46.0.tar.gz
 cd executor/executor/bin
 ```
 ```
-```
-Set initial environment variables
-```
 export NODE_ENV=testnet
 export LOG_LEVEL=debug
 export LOG_PRETTY=false
@@ -52,19 +49,12 @@ export EXECUTOR_ENABLE_BATCH_BIDING=true
 export EXECUTOR_PROCESS_BIDS_ENABLED=true
 ```
 ```
-```
-Set RPC
-
-```
 export RPC_ENDPOINTS_bssp='you rpc or public rpc'
 export RPC_ENDPOINTS_opsp='you rpc or public rpc'
 export API_ENDPOINTS_L1RN='https://brn.rpc.caldera.xyz/'
 export RPC_ENDPOINTS_blast='https://sepolia.blast.io/'
 export RPC_ENDPOINTS_arb='https://arbitrum-sepolia-rpc.publicnode.com/
 ```
-```
-```
-Run the executor
 ```
 ./executor
 ```
