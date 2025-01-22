@@ -58,8 +58,6 @@ export RPC_ENDPOINTS_arb='https://arbitrum-sepolia-rpc.publicnode.com/
 ```
 ./executor
 ```
-```
-```
 ## NOTE
 Use CTRL+A+D to minimize the T3RN screen
 Use Screen -r T3rn to go back to executor screen
