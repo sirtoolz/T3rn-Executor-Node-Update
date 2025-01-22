@@ -3,6 +3,7 @@
 ## Getting Started
 - You can buy vps($7) from vpsdime.com and pay with crypto or with your credit card.
 - Login to your vps with Termius and follow this guide
+- Fund your wallet with Arb Sepolia, OP Sepolia, Blast Sepolia, Base Sepolia and BRN tokens.
 
 ## Executor Script
 
@@ -27,7 +28,10 @@ tar -xvzf executor-linux-v0.46.0.tar.gz
 ```
 cd executor/executor/bin
 ```
-```Set initial environment variables
+```
+```
+Set initial environment variables
+```
 export NODE_ENV=testnet
 export LOG_LEVEL=debug
 export LOG_PRETTY=false
@@ -47,17 +51,25 @@ export EXECUTOR_PROCESS_ORDERS_API_ENABLED=false
 export EXECUTOR_ENABLE_BATCH_BIDING=true
 export EXECUTOR_PROCESS_BIDS_ENABLED=true
 ```
-```Set RPC
+```
+```
+Set RPC
+
+```
 export RPC_ENDPOINTS_bssp='you rpc or public rpc'
 export RPC_ENDPOINTS_opsp='you rpc or public rpc'
 export API_ENDPOINTS_L1RN='https://brn.rpc.caldera.xyz/'
 export RPC_ENDPOINTS_blast='https://sepolia.blast.io/'
 export RPC_ENDPOINTS_arb='https://arbitrum-sepolia-rpc.publicnode.com/
 ```
-```Run the executor
+```
+```
+Run the executor
+```
 ./executor
 ```
 ```
 ```
+## NOTE
 Use CTRL+A+D to minimize the T3RN screen
 Use Screen -r T3rn to go back to executor screen
