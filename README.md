@@ -42,7 +42,6 @@ export PRIVATE_KEY_LOCAL=REPLACE-WITH-YOU-PRIVATE-KEY
 ```
 ```
 export ENABLED_NETWORKS='base-sepolia,optimism-sepolia,l1rn,blast-sepolia,arb-sepolia'
-
 export EXECUTOR_PROCESS_PENDING_ORDERS_FROM_API=false
 export EXECUTOR_PROCESS_ORDERS_API_ENABLED=false
 export EXECUTOR_ENABLE_BATCH_BIDING=true
@@ -53,7 +52,7 @@ export RPC_ENDPOINTS_bssp='you rpc or public rpc'
 export RPC_ENDPOINTS_opsp='you rpc or public rpc'
 export API_ENDPOINTS_L1RN='https://brn.rpc.caldera.xyz/'
 export RPC_ENDPOINTS_blast='https://sepolia.blast.io/'
-export RPC_ENDPOINTS_arb='https://arbitrum-sepolia-rpc.publicnode.com/
+export RPC_ENDPOINTS_arb='https://arbitrum-sepolia-rpc.publicnode.com/'
 ```
 ```
 ./executor
