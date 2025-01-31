@@ -20,10 +20,10 @@ sudo apt install screen
 screen -S t3rn
 ```
 ```
-wget https://github.com/t3rn/executor-release/releases/download/v0.46.0/executor-linux-v0.46.0.tar.gz
+wget https://github.com/t3rn/executor-release/releases/download/v0.47.0/executor-linux-v0.47.0.tar.gz
 ```
 ```
-tar -xvzf executor-linux-v0.46.0.tar.gz
+tar -xvzf executor-linux-v0.47.0.tar.gz
 ```
 ```
 cd executor/executor/bin
